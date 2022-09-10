@@ -1,0 +1,2 @@
+# MOH2010_JPFont_GenAssist
+MOH2010の日本語フォント生成補助ツール
