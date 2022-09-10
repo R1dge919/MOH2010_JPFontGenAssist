@@ -15,18 +15,19 @@
 - [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler) “FFDec”
 
 ## 手順
-- 作業フォルダ内にファイルを配置
+1. 作業フォルダ内にファイルを配置
 ```
 - decompress.exe
 - extract.exe
-- Fonts_en.upk
-- processA（.py もしくは.exe）
-- processB（〃）
+- Fonts_en.upk（プログラム上では読み込むだけ、バックアップ代わりになる）
+- process_A（.py もしくは.exe）
+- process_B（〃）
 ```
-- `processA`実行（前処理）
+- `process_A`実行（前処理）
 - FFDecで`作業フォルダ/Fonts_en/Fonts_en.gfx`を開き、フォントを追加する
   - 詳細追加予定
-- `processB`実行（後処理）
+- `process_B`実行（後処理）
+- `/out/Fonts_en.upk`を、`ゲームディレクトリ/MOHAGame/CookedPC/`に配置（元ファイルを上書き）
 
 ## 問題点？
 - 本来は、元となる字幕ファイルをアンパックした際に生成されるログから、一部の値を取得する必要がある
