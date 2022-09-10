@@ -19,7 +19,7 @@
 ```
 - decompress.exe
 - extract.exe
-- Fonts_en.upk（プログラム上では読み込むだけ、バックアップ代わりになる）
+- Fonts_en.upk
 - process_A（.py もしくは.exe）
 - process_B（〃）
 ```
