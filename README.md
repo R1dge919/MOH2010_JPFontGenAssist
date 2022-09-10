@@ -16,6 +16,11 @@
 
 ## 手順
 - 作業フォルダ内にファイルを配置
+  - `decompress.exe`
+  - `extract.exe`  
+  - `Fonts_en.upk`
+  - `processA`
+  - `processB`
 - `processA`実行（前処理）
 - FFDecで`作業フォルダ/Fonts_en/Fonts_en.gfx`を開き、フォントを追加する
   - 詳細追加予定
