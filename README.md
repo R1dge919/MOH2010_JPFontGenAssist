@@ -29,3 +29,7 @@
   - 左上Save
 - `process_B`実行（後処理） -> `/out/Fonts_en.upk`が生成される
 - `/out/Fonts_en.upk`を、`ゲームディレクトリ/MOHAGame/CookedPC/`に配置（元ファイルを上書き）
+
+## 参考
+- [PC ゲーム Aliens: Colonial Marines Collection で日本語を表示する方法 - awgs Foundry](https://awgsfoundry.com/blog-entry-550.html)
+ - この手順をそのままMOHでやったようなものなので、本プログラムは（入出力ファイル名を変更すれば）このゲームのファイルに対しても動作するかも
