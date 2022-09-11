@@ -16,7 +16,7 @@
 
 ## 手順
 - `process_A`実行（前処理）
-- FFDecで`作業フォルダ/Fonts_en/Fonts_en.gfx`を開き、フォントを追加する
+- FFDecで`作業フォルダ/Fonts_en/Fonts_en.gfx`を開き、フォントを置換
   - 詳細追加予定
 - `process_B`実行（後処理）
 - `/out/Fonts_en.upk`を、`ゲームディレクトリ/MOHAGame/CookedPC/`に配置（元ファイルを上書き）
