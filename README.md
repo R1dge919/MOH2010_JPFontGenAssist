@@ -18,17 +18,17 @@
 - [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler) “FFDec”
 
 ## 手順
-- `process_A`実行（前処理）
-- FFDecで`作業フォルダ/Fonts_en/Fonts_en.gfx`を開き、フォントを置換
-  - 左からフォントを選び、右下Embedを押す
+- **`process_A`実行（前処理）**
+- **FFDecで`作業フォルダ/Fonts_en/Fonts_en.gfx`を開き、フォントを置換**
+  - **左からフォントを選び、右下Embedを押す**
     - 多分どちらかが字幕用で、もう片方はオブジェクティブ表示とかのフォント。自分は調べるのが面倒なので両方書き換えました
     ![image](https://user-images.githubusercontent.com/51169059/189514774-a2d30fe1-f213-40c0-8a42-790f1e2d2240.png)
-  - 入れるフォントを指定、日本語3種にチェックを入れてOK
+  - **入れるフォントを指定、日本語3種にチェックを入れてOK**
     - OKを押した後に、上書きの警告が出る。Yes to All, Yesを押す。
     ![image](https://user-images.githubusercontent.com/51169059/189514870-944576e8-6a9d-4500-b9a6-69bdd833b45a.png)
   - 左上Save
-- `process_B`実行（後処理） -> `/out/Fonts_en.upk`が生成される
-- `/out/Fonts_en.upk`を、`ゲームディレクトリ/MOHAGame/CookedPC/`に配置（元ファイルを上書き）
+- **`process_B`実行（後処理） -> `作業フォルダ/out/Fonts_en.upk`が生成される**
+- **`作業フォルダ/out/Fonts_en.upk`を、`ゲームディレクトリ/MOHAGame/CookedPC/`に配置（元ファイルを上書き）**
 
 ## 参考
 - [PC ゲーム Aliens: Colonial Marines Collection で日本語を表示する方法 - awgs Foundry](https://awgsfoundry.com/blog-entry-550.html)
