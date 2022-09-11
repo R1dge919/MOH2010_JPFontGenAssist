@@ -15,14 +15,6 @@
 - [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler) “FFDec”
 
 ## 手順
-1. 作業フォルダ内にファイルを配置
-```
-- decompress.exe
-- extract.exe
-- Fonts_en.upk
-- process_A（.py もしくは.exe）
-- process_B（〃）
-```
 - `process_A`実行（前処理）
 - FFDecで`作業フォルダ/Fonts_en/Fonts_en.gfx`を開き、フォントを追加する
   - 詳細追加予定
