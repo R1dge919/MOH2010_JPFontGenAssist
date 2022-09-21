@@ -13,7 +13,7 @@
 - [Downloads | Gildor's Homepage](https://www.gildor.org/downloads)
   - Unreal Package Decompressor -> `decompress.exe`
   - Unreal Package Extractor -> `extract.exe`
-- **本プログラム(process_A,process_B)**
+- **本プログラム(`process_A`, `process_B`)**
 ### ツール
 - [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler) “FFDec”
 
