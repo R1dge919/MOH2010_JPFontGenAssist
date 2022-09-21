@@ -1,10 +1,10 @@
 import subprocess
 
-# Step1: 解凍処理
+# Step A-1: アンパック
 subprocess.run(["./decompress.exe","./Fonts_en.upk"]) # decompress実行
 subprocess.run(["./extract","./unpacked/Fonts_en.upk"]) # unpack実行
 
-# Step2: Fonts_en.gfx生成
+# Step A-2 /Fonts_en/Fonts_en.GFxMovieInfo編集
 with open ("./Fonts_en/Fonts_en.GFxMovieInfo",'rb') as f: # 元ファイルを開く
     s=f.read()
 
