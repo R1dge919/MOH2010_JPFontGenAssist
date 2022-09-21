@@ -7,7 +7,7 @@
 
 
 ## 必須
-### ファイル（作業フォルダ内に配置）
+### ファイル（作業フォルダ直下に配置）
 - 元となる字幕ファイル
   - `ゲームディレクトリ/MOHAGame/CookedPC/Fonts_en.upk`
 - [Downloads | Gildor's Homepage](https://www.gildor.org/downloads)
