@@ -28,7 +28,7 @@
     ![image](https://user-images.githubusercontent.com/51169059/189514870-944576e8-6a9d-4500-b9a6-69bdd833b45a.png)
   - 左上Save
 - **`process_B`実行（後処理） -> `作業フォルダ/out/Fonts_en.upk`が生成される**
-- **`作業フォルダ/out/Fonts_en.upk`を、`ゲームディレクトリ/MOHAGame/CookedPC/`に配置（元ファイルを上書き）**
+- **`作業フォルダ/out/Fonts_en.upk`を、`ゲームディレクトリ/MOHAGame/CookedPC/`に配置（元ファイルを置換）**
 
 ## 参考
 - [PC ゲーム Aliens: Colonial Marines Collection で日本語を表示する方法 - awgs Foundry](https://awgsfoundry.com/blog-entry-550.html)
