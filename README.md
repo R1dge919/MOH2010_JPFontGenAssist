@@ -8,7 +8,7 @@
 
 ## 必須
 ### ファイル（作業フォルダ直下に配置）
-- 元となる字幕ファイル
+- 元となるフォントファイル
   - `ゲームディレクトリ/MOHAGame/CookedPC/Fonts_en.upk`
 - [Downloads | Gildor's Homepage](https://www.gildor.org/downloads)
   - Unreal Package Decompressor -> `decompress.exe`
