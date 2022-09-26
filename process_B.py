@@ -12,12 +12,12 @@ old_size_alt = (len(s1)+4).to_bytes(4, byteorder="little") # B Fonts_en.gfx フ�
 # Fonts_en.GFxMovieInfoを開く（Step1で削除した先頭32bit・末尾8bitを確認）
 with open ("./Fonts_en/Fonts_en.GFxMovieInfo",'rb') as f:
     s=f.read()
-head = s[:32] # s1で削除した先頭32bit
-tail = s[-8:] # s1で削除した末尾8bit
+head = s[:32] # Step A-2で削除した先頭32bit
+tail = s[-8:] # Step A-2で削除した末尾8bit
 size = len(s).to_bytes(4, byteorder="little") # ① 追記前ファイルサイズ記録
 
 strings = head + s1 + tail # A-2で削除した先頭・末尾を再配置
-strings = strings.replace(strings[28:32],old_size) # Aを書き込む（アドレス1C～1Fに。old_sizeを書き込み）
+strings = strings.replace(strings[28:32],old_size) # Aを書き込む（アドレス1C～1Fに、old_sizeを書き込み）
 strings = strings.replace(strings[20:24],old_size_alt) # Bを書き込む（アドレス14～17に、old_size_altを書き込み）
 
 new_size = len(strings).to_bytes(4, byteorder="little") # ①' 新ファイルサイズ記録
