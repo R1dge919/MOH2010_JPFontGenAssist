@@ -10,7 +10,7 @@
 
 ## 必須
 ### ファイル  
-> 以下に示す4ファイルを、作業フォルダ直下に配置
+> 以下に示す5ファイルを、作業フォルダ直下に配置
 - 元となるフォントファイル
   - `ゲームディレクトリ/MOHAGame/CookedPC/Fonts_en.upk`
 - [Downloads | Gildor's Homepage](https://www.gildor.org/downloads)
