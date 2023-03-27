@@ -1,4 +1,4 @@
-# MOH2010 日本語フォント生成補助ツール+α  
+# MOH2010 日本語フォント生成補助プログラム  
 日本語フォントの表示に対応させる方法を見つけたので、自動で処理するプログラムを書いてみました。  
 各手順については[Wiki](https://github.com/R1dge919/MOH2010_JPFontGenAssist/wiki)を参照。  
 **正しく動作していれば、「FFDecでフォントを置換する作業」以外は自動で処理してくれるはず。**  
@@ -9,7 +9,8 @@
 
 
 ## 必須
-### ファイル（作業フォルダ直下に配置）
+### ファイル  
+> 以下に示す4ファイルを、作業フォルダ直下に配置
 - 元となるフォントファイル
   - `ゲームディレクトリ/MOHAGame/CookedPC/Fonts_en.upk`
 - [Downloads | Gildor's Homepage](https://www.gildor.org/downloads)
